@@ -6,7 +6,7 @@
     flex-direction: column;
   }
   .nav-items {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   .skills-img {
     grid-template-columns: repeat(2, 200px);
@@ -23,6 +23,15 @@
     width: 15rem;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .project-mcase img,
+  .project-virtour img,
+  .project-expyr img {
+    width: 10rem;
+  }
+}
+
 /* for large mobile */
 @media screen and (max-width: 480px) {
   nav {
@@ -97,6 +106,6 @@
   .project-mcase img,
   .project-virtour img,
   .project-expyr img {
-    width: 25rem;
+    width: 23rem;
   }
 }
