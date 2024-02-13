@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+/* Scroll */
 html {
   scroll-behavior: smooth;
 }
@@ -108,7 +109,7 @@ nav {
 .project-virtour {
   grid-area: footer;
 }
-/* contact */
+/* contacts */
 .contact {
   text-align: center;
   padding: 5rem 0 5rem 0;
